@@ -1,0 +1,1 @@
+Simple page that shows the weather in your location.
