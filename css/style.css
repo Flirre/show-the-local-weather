@@ -87,3 +87,7 @@ body {
 	border: 3vh solid;
     }
 }
+
+@media (max-width: 1100px) {
+
+}
