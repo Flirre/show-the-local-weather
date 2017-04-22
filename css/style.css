@@ -20,10 +20,11 @@ body {
 .weatherpic {
     border-left: 1.0vmin solid;
     border-bottom: 1.0vmin solid;
-    border-color: #FFFFFF;
+    border-color: #000000;
+    border-radius: 0 0 0% 30%;
     width: 8.0vmin;
     height: 8.0vmin;
-    background: #5555EE;
+    background: #FFFFFF;
     position:fixed;
     top:0;
     right:0;
@@ -53,27 +54,25 @@ body {
     top:45%;
     left: 42%;
     display: table;
-    margin: 0 auto;
+    margin: 0 0;
+    width: 9vmin;
 }
 
 .switch {
     border-right: 1.0vmin solid;
     border-bottom: 1.0vmin solid;
-    border-color: #FFFFFF;
+    border-color: #000000;
+    border-radius: 0 0 30% 0;
     width: 8.0vmin;
     height: 8.0vmin;
-    background: #5555EE;
+    background: #FFFFFF;
     position:fixed;
     top:0;
     left:0;
-    text-align: center;
+    /* text-align: center; */
     font-family: monospace;
     font-weight: 600;
-    font-size: 1.0vmin;
-}
-
-.swosh {
-    line-height: 0.1;
+    font-size: 3.0vmin;
 }
 
 @media (min-width: 1100px) {
@@ -88,6 +87,8 @@ body {
     }
 }
 
-@media (max-width: 1100px) {
-
+@media (max-width: 512px) {
+    .reload-button {
+    font-size:2vmin;
+}
 }
