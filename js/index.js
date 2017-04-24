@@ -1,4 +1,3 @@
-//key=9dc09ef0f5d2d6b8e00cd03924f371ea
 $(document).ready(function() {
     console.log("redy");
     var units = 'metric';  // set to "imperial" for imperial units.
@@ -26,12 +25,14 @@ $(document).ready(function() {
     });
 
     function changeUnit() {
+	$('#switch-text').empty().append(String.fromCharCode(176) + unitChar);
 	console.log(units);
 	console.log(unitChar);
 	if (units[0] == 'm') {
 	    units = 'imperial';
 	    unitChar = 'F';
 	    console.log(unitChar);
+	    
 	}
 	
 	else {
